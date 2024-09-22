@@ -1,6 +1,10 @@
 package com.example.native_integration
 
 import io.flutter.embedding.android.FlutterActivity
+import io.flutter.embedding.engine.FlutterEngine
+import io.flutter.plugin.common.MethodChannel
+import android.os.BatteryManager
+import android.content.Context
 
 class MainActivity : FlutterActivity() {
     private val CHANNEL = "com.example.native/methods"
