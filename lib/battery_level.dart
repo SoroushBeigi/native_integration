@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 
 class BatteryLevel {
   static const methodChannel = MethodChannel(
-    'io.flutterengineering.battery/methods',
+    'com.example.native/methods',
   );
   static Future<int?> getBatteryLevel() async {
     try {
